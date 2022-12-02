@@ -44,10 +44,10 @@ select {
 }
 
 .searchbtn {
-    position: relative;
-    top: 35px;
+    position: absolute;
+    top: 235px;
     padding: 6px 20px;
-    margin-right: 160px;
+    margin-right: 180px;
 }
 
 .container {
@@ -65,7 +65,6 @@ select {
         text-align: center;
         color: gray;
         border: 1px solid plum;
-        margin-left: 200px;
     }
     .data .address {
         padding: 4px 8px;
