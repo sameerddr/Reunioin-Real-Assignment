@@ -1,0 +1,87 @@
+.data {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardbox {
+    padding: 20px;
+}
+
+#search-input {
+    margin-left: 168px;
+    padding: 6px 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+    border: 1px solid plum;
+}
+
+.address {
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: gray;
+    border: 1px solid plum;
+}
+
+#dateinput {
+    color: purple;
+    border: 1px solid plum;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+select {
+    border: 1px solid plum;
+    padding: 6px 10px;
+    border-radius: 10px;
+}
+
+.row2 {
+    margin: 30px 0px;
+}
+
+.searchbtn {
+    position: relative;
+    top: 35px;
+    padding: 6px 20px;
+    margin-right: 160px;
+}
+
+.container {
+    margin-left: 150px;
+}
+
+.data h2 {
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 650px) {
+    .data #search-input {
+        padding: 4px 8px;
+        border-radius: 10px;
+        text-align: center;
+        color: gray;
+        border: 1px solid plum;
+        margin-left: 200px;
+    }
+    .data .address {
+        padding: 4px 8px;
+        border-radius: 10px;
+        text-align: center;
+        color: gray;
+        border: 1px solid plum;
+        margin-bottom: 20px;
+    }
+    .data h2 {
+        font-size: large;
+    }
+    select {
+        margin: 4px 0px;
+    }
+    .data h6 {
+        margin: 10px 0px;
+    }
+}
