@@ -20,17 +20,18 @@ const Data = ({ favorites, setFavorites }) => {
 
   const [Originaldata, setOriginaldata] = useState([]);
 
-  const api = "https://frozen-harbor-02472.herokuapp.com/data";
+  // const api = "https://frozen-harbor-02472.herokuapp.com/data";
 
   const getapi = async () => {
     try {
-      const response = await axios.get(api);
+      const response = await axios.get("db.json");
       setData(response.data);
       setOriginaldata(response.data);
     } catch (error) {
       toast("Error!");
     }
   };
+  getapi();
 
   useEffect(() => {
     getapi();
