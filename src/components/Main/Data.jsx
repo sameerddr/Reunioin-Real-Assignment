@@ -31,7 +31,6 @@ const Data = ({ favorites, setFavorites }) => {
       toast("Error!");
     }
   };
-  getapi();
 
   useEffect(() => {
     getapi();
